@@ -1,0 +1,75 @@
+/* YOUR CUSTOM STYLES */
+#body-jeu {
+
+}
+
+#conteneur {
+    background-image: url("./img_super/fond.jpg");
+    background-size: 100%;
+    position: absolute;
+    text-align: center;
+    padding: 0.5em;
+}
+
+#titre {
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#hautPage {
+    display: flex;
+    justify-content: space-between;
+    margin: 5em;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+#tapis {
+    text-align: center;
+    padding-top: 1em;
+}
+
+#entoure-errsco {
+    background-color: #407bff;
+    color: white;
+    width: 10em;
+    padding: 1em;
+    margin-left: 10em;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.cartes {
+    margin: 6px;
+    width: 2.2cm;
+    height: 3cm;
+    border: 1px solid #5b32bc;
+
+}
+
+#btn-go {
+    width: 10em;
+    background-color: #5bc0de;
+}
+
+#chrono {
+    width: 6em;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding: 1em;
+    border-radius: 6px;
+    background-color: #b2dede;
+    color: whitesmoke;
+    visibility: hidden;
+}
+
+#idchrono {
+    display: flex;
+    justify-content: space-around;
+}
